@@ -1,0 +1,6 @@
+codeStyle/codeStyleId=KOTLIN_OFFICIAL
+codeStyle/globalsOverridden=true
+compilerFlags=-Xjsr305\=strict
+eclipse.preferences.version=1
+globalsOverridden=true
+jvmTarget=JVM_11

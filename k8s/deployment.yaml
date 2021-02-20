@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spring-kotlin-boilerplate
+spec:
+  selector:
+    matchLabels:
+      app: spring-kotlin-boilerplate
+  template:
+    metadata:
+      labels:
+        app: spring-kotlin-boilerplate
+    spec:
+      containers:
+      - name: spring-kotlin-boilerplate
+        image: rapaduratech/spring-kotlin-microservice
+        ports:
+        - containerPort: 8080
