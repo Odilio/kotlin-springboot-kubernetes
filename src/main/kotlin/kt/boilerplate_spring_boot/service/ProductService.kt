@@ -3,8 +3,9 @@ package kt.boilerplate_spring_boot.service
 import org.springframework.stereotype.Repository
 import kt.boilerplate_spring_boot.model.Product
 import kt.boilerplate_spring_boot.repository.ProductRepository
+import org.springframework.stereotype.Service
 
-@Repository
+@Service
 class ProductService(val repository: ProductRepository)  {
 
     fun findById(id: Long): Product? = repository.findById(id).get()
