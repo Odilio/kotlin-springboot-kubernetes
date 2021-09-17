@@ -15,11 +15,11 @@ class WebClientService(
         @Value("\${url.products}")
         private val url: String? = null
 
-    fun getSynchronous(): ResponseEntity<Product>? = webClient
+    fun getSynchronous(id: Integer): ResponseEntity<Product>? = webClient
             .get()
             .uri(UriComponentsBuilder
                     .fromHttpUrl(url!!)
-                    .path("/products/1")
+                    .path("/products/${id}")
                     .build()
                     .toUri())
             .retrieve()

@@ -2,8 +2,6 @@ package kt.boilerplate_spring_boot.controller
 
 import org.springframework.web.bind.annotation.*
 import kt.boilerplate_spring_boot.model.Product
-import kt.boilerplate_spring_boot.service.WebClientCommand
-import kt.boilerplate_spring_boot.service.WebClientCommand.*
 import kt.boilerplate_spring_boot.service.WebClientService
 import org.springframework.http.ResponseEntity
 
@@ -13,14 +11,7 @@ class TestController(
     private val webClientService: WebClientService
 ) {
 
-    @GetMapping("/webclient/{webClientCommand}")
-    fun command(@PathVariable webClientCommand: WebClientCommand): ResponseEntity<String> = ResponseEntity.ok(when (webClientCommand) {
-        GetSynchronous -> webClientService.getSynchronous()
-        GetAsynchronous -> webClientService.getAsynchronous().block()
-        PostSynchronous -> TODO()
-        PostAsynchronous -> TODO()
-        PutSynchronous -> TODO()
-        DeleteSynchronous -> TODO()
-        Exchange -> TODO()
-    }.toString())
+    @GetMapping("/webclient/{id}")
+    fun command(@PathVariable id:Integer): ResponseEntity<Product>? = webClientService.getSynchronous(id)
+
 }
