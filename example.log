@@ -1,0 +1,42 @@
+2021-09-17 17:19:28.291  INFO 4036 --- [main] k.b.StarterServerKotlinKt                : Starting StarterServerKotlinKt using Java 11.0.12 on LAPTOP-VH99M8PP with PID 4036 (C:\Users\odili\projetos\kotlin-springboot-kubernetes\target\classes started by odili in C:\Users\odili\projetos\kotlin-springboot-kubernetes)
+2021-09-17 17:19:28.294  INFO 4036 --- [main] k.b.StarterServerKotlinKt                : No active profile set, falling back to default profiles: default
+2021-09-17 17:19:30.458  INFO 4036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-17 17:19:30.782  INFO 4036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 314 ms. Found 2 JPA repository interfaces.
+2021-09-17 17:19:31.254  INFO 4036 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@e2b3026' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-17 17:19:31.259  INFO 4036 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-17 17:19:31.969  INFO 4036 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-17 17:19:31.986  INFO 4036 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-17 17:19:31.987  INFO 4036 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-17 17:19:32.242  INFO 4036 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-17 17:19:32.243  INFO 4036 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3860 ms
+2021-09-17 17:19:32.550  WARN 4036 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-17 17:19:32.688  INFO 4036 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.7.3 by Redgate
+2021-09-17 17:19:32.704  INFO 4036 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-17 17:19:33.018  INFO 4036 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-17 17:19:33.070  INFO 4036 --- [main] o.f.c.i.database.base.DatabaseType       : Database: jdbc:h2:mem:testdb (H2 1.4)
+2021-09-17 17:19:33.186  INFO 4036 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.045s)
+2021-09-17 17:19:33.208  INFO 4036 --- [main] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2021-09-17 17:19:33.250  INFO 4036 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 17:19:33.254  INFO 4036 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 17:19:33.283  INFO 4036 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema "PUBLIC": << Empty Schema >>
+2021-09-17 17:19:33.296  INFO 4036 --- [main] o.f.core.internal.command.DbMigrate      : Migrating schema "PUBLIC" to version "001 - initial"
+2021-09-17 17:19:33.304  INFO 4036 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 17:19:33.305  INFO 4036 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 17:19:33.310  INFO 4036 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 17:19:33.311  INFO 4036 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 1 rows affected
+2021-09-17 17:19:33.311  INFO 4036 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 1 rows affected
+2021-09-17 17:19:33.343  INFO 4036 --- [main] o.f.core.internal.command.DbMigrate      : Successfully applied 1 migration to schema "PUBLIC", now at version v001 (execution time 00:00.070s)
+2021-09-17 17:19:33.532  INFO 4036 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-17 17:19:33.648  INFO 4036 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-17 17:19:33.860  INFO 4036 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-17 17:19:34.049  INFO 4036 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-17 17:19:34.858  INFO 4036 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-17 17:19:34.873  INFO 4036 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-17 17:19:37.183  INFO 4036 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2021-09-17 17:19:37.316  INFO 4036 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-17 17:19:37.500  INFO 4036 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@38f1f6c9, org.springframework.security.web.context.SecurityContextPersistenceFilter@2080ee70, org.springframework.security.web.header.HeaderWriterFilter@435a13ac, org.springframework.security.web.csrf.CsrfFilter@4b391e45, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@46baac0d, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@82382d1, org.springframework.security.web.authentication.logout.LogoutFilter@5c4e86e7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c1f4817, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1a524c6b, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@77e261e3, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@642b71d6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3bf31f3e, org.springframework.security.web.session.SessionManagementFilter@5de15ce1, org.springframework.security.web.access.ExceptionTranslationFilter@3f4b59fd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@42000298]
+2021-09-17 17:19:37.967  INFO 4036 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-17 17:19:37.969  INFO 4036 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-09-17 17:19:37.999  INFO 4036 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-09-17 17:19:38.062  INFO 4036 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-09-17 17:19:38.096  INFO 4036 --- [main] k.b.StarterServerKotlinKt                : Started StarterServerKotlinKt in 10.448 seconds (JVM running for 11.261)
