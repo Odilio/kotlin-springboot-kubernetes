@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dbffc9d-e96a-4937-8974-d5180d899fe0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kt/boilerplate_spring_boot/config/WebSecurityConfig.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kt/boilerplate_spring_boot/controller/ExampleController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sample-spring-kotlin-microservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sample-spring-kotlin-microservice.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kt/boilerplate_spring_boot/config/WebClientConfiguration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kt/boilerplate_spring_boot/config/WebClientConfiguration.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kt/boilerplate_spring_boot/config/WebSecurityConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kt/boilerplate_spring_boot/config/WebSecurityConfig.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

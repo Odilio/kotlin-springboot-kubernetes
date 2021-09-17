@@ -1,14 +1,22 @@
-spring.application.name: spring-boot-kotlin-microservice
-management.endpoints.web.exposure.include: '*'
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
 
 # H2 connection
-spring.datasource.url: jdbc:h2:mem:testdb
-spring.datasource.driverClassName: org.h2.Driver
-spring.datasource.username: sa
-spring.datasource.password: password
-spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+spring:
+  application:
+    name: spring-boot-kotlin-microservice
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+    database-platform: org.hibernate.dialect.H2Dialect
 
-url.products: "http://localhost:8080/"
+url:
+  products: "http://localhost:8080/"
 
 keycloak:
   realm: example
