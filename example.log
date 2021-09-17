@@ -40,3 +40,228 @@
 2021-09-17 17:19:37.999  INFO 4036 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
 2021-09-17 17:19:38.062  INFO 4036 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
 2021-09-17 17:19:38.096  INFO 4036 --- [main] k.b.StarterServerKotlinKt                : Started StarterServerKotlinKt in 10.448 seconds (JVM running for 11.261)
+2021-09-17 17:37:19.808  INFO 4036 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-17 17:37:19.813  INFO 4036 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-17 17:37:19.819  INFO 4036 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-17 17:37:26.316  INFO 19656 --- [main] k.b.StarterServerKotlinKt                : Starting StarterServerKotlinKt using Java 11.0.12 on LAPTOP-VH99M8PP with PID 19656 (C:\Users\odili\projetos\kotlin-springboot-kubernetes\target\classes started by odili in C:\Users\odili\projetos\kotlin-springboot-kubernetes)
+2021-09-17 17:37:26.320  INFO 19656 --- [main] k.b.StarterServerKotlinKt                : No active profile set, falling back to default profiles: default
+2021-09-17 17:37:28.338  INFO 19656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-17 17:37:28.562  INFO 19656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 214 ms. Found 2 JPA repository interfaces.
+2021-09-17 17:37:29.036  INFO 19656 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4fbb1144' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-17 17:37:29.042  INFO 19656 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-17 17:37:29.785  INFO 19656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-17 17:37:29.800  INFO 19656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-17 17:37:29.800  INFO 19656 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-17 17:37:30.005  INFO 19656 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-17 17:37:30.005  INFO 19656 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3605 ms
+2021-09-17 17:37:30.240  WARN 19656 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-17 17:37:30.341  INFO 19656 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.7.3 by Redgate
+2021-09-17 17:37:30.351  INFO 19656 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-17 17:37:30.599  INFO 19656 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-17 17:37:30.632  INFO 19656 --- [main] o.f.c.i.database.base.DatabaseType       : Database: jdbc:h2:mem:testdb (H2 1.4)
+2021-09-17 17:37:30.719  INFO 19656 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.031s)
+2021-09-17 17:37:30.735  INFO 19656 --- [main] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2021-09-17 17:37:30.774  INFO 19656 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 17:37:30.779  INFO 19656 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 17:37:30.801  INFO 19656 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema "PUBLIC": << Empty Schema >>
+2021-09-17 17:37:30.811  INFO 19656 --- [main] o.f.core.internal.command.DbMigrate      : Migrating schema "PUBLIC" to version "001 - initial"
+2021-09-17 17:37:30.819  INFO 19656 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 17:37:30.820  INFO 19656 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 17:37:30.826  INFO 19656 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 17:37:30.827  INFO 19656 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 1 rows affected
+2021-09-17 17:37:30.829  INFO 19656 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 1 rows affected
+2021-09-17 17:37:30.859  INFO 19656 --- [main] o.f.core.internal.command.DbMigrate      : Successfully applied 1 migration to schema "PUBLIC", now at version v001 (execution time 00:00.066s)
+2021-09-17 17:37:30.973  INFO 19656 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-17 17:37:31.062  INFO 19656 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-17 17:37:31.222  INFO 19656 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-17 17:37:31.381  INFO 19656 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-17 17:37:31.858  INFO 19656 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-17 17:37:31.869  INFO 19656 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-17 17:37:33.509  INFO 19656 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2021-09-17 17:37:33.604  INFO 19656 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-17 17:37:33.719  INFO 19656 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f9cb96f, org.springframework.security.web.context.SecurityContextPersistenceFilter@2048255a, org.springframework.security.web.header.HeaderWriterFilter@eb1d7c8, org.springframework.security.web.csrf.CsrfFilter@7bb6a1f4, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@2ca464bb, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@8bd9d08, org.springframework.security.web.authentication.logout.LogoutFilter@5d0ca8a5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3f4b59fd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33544cc5, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@46baac0d, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@493489dd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45295bed, org.springframework.security.web.session.SessionManagementFilter@280d20fb, org.springframework.security.web.access.ExceptionTranslationFilter@41ff98dc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@75c8855e]
+2021-09-17 17:37:34.083  INFO 19656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-17 17:37:34.084  INFO 19656 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-09-17 17:37:34.108  INFO 19656 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-09-17 17:37:34.166  INFO 19656 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-09-17 17:37:34.192  INFO 19656 --- [main] k.b.StarterServerKotlinKt                : Started StarterServerKotlinKt in 8.489 seconds (JVM running for 9.14)
+2021-09-17 17:37:40.884  INFO 19656 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-17 17:37:40.888  INFO 19656 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-17 17:37:40.895  INFO 19656 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-17 17:39:00.911  INFO 9784 --- [main] k.b.StarterServerKotlinKt                : Starting StarterServerKotlinKt using Java 11.0.12 on LAPTOP-VH99M8PP with PID 9784 (C:\Users\odili\projetos\kotlin-springboot-kubernetes\target\classes started by odili in C:\Users\odili\projetos\kotlin-springboot-kubernetes)
+2021-09-17 17:39:00.915  INFO 9784 --- [main] k.b.StarterServerKotlinKt                : No active profile set, falling back to default profiles: default
+2021-09-17 17:39:02.861  INFO 9784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-17 17:39:03.082  INFO 9784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 212 ms. Found 2 JPA repository interfaces.
+2021-09-17 17:39:03.517  INFO 9784 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4fbb1144' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-17 17:39:03.523  INFO 9784 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-17 17:39:04.140  INFO 9784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-17 17:39:04.154  INFO 9784 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-17 17:39:04.155  INFO 9784 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-17 17:39:04.346  INFO 9784 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-17 17:39:04.347  INFO 9784 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3351 ms
+2021-09-17 17:39:04.579  WARN 9784 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-17 17:39:04.669  INFO 9784 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.7.3 by Redgate
+2021-09-17 17:39:04.677  INFO 9784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-17 17:39:04.898  INFO 9784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-17 17:39:04.941  INFO 9784 --- [main] o.f.c.i.database.base.DatabaseType       : Database: jdbc:h2:mem:testdb (H2 1.4)
+2021-09-17 17:39:05.027  INFO 9784 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.031s)
+2021-09-17 17:39:05.044  INFO 9784 --- [main] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2021-09-17 17:39:05.084  INFO 9784 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 17:39:05.088  INFO 9784 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 17:39:05.110  INFO 9784 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema "PUBLIC": << Empty Schema >>
+2021-09-17 17:39:05.120  INFO 9784 --- [main] o.f.core.internal.command.DbMigrate      : Migrating schema "PUBLIC" to version "001 - initial"
+2021-09-17 17:39:05.127  INFO 9784 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 17:39:05.128  INFO 9784 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 17:39:05.132  INFO 9784 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 17:39:05.133  INFO 9784 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 1 rows affected
+2021-09-17 17:39:05.134  INFO 9784 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 1 rows affected
+2021-09-17 17:39:05.163  INFO 9784 --- [main] o.f.core.internal.command.DbMigrate      : Successfully applied 1 migration to schema "PUBLIC", now at version v001 (execution time 00:00.062s)
+2021-09-17 17:39:05.287  INFO 9784 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-17 17:39:05.395  INFO 9784 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-17 17:39:05.569  INFO 9784 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-17 17:39:05.726  INFO 9784 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-17 17:39:06.140  INFO 9784 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-17 17:39:06.151  INFO 9784 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-17 17:39:07.784  INFO 9784 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2021-09-17 17:39:07.887  INFO 9784 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-17 17:39:08.014  INFO 9784 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3bf31f3e, org.springframework.security.web.context.SecurityContextPersistenceFilter@1bce19db, org.springframework.security.web.header.HeaderWriterFilter@38007ead, org.springframework.security.web.csrf.CsrfFilter@647bd553, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@46baac0d, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@82382d1, org.springframework.security.web.authentication.logout.LogoutFilter@48a2fb11, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d3c0735, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2408ca4c, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@77e261e3, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@642b71d6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6f8b1902, org.springframework.security.web.session.SessionManagementFilter@33544cc5, org.springframework.security.web.access.ExceptionTranslationFilter@22599048, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4df9df06]
+2021-09-17 17:39:08.373  INFO 9784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-17 17:39:08.375  INFO 9784 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-09-17 17:39:08.399  INFO 9784 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-09-17 17:39:08.449  INFO 9784 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-09-17 17:39:08.477  INFO 9784 --- [main] k.b.StarterServerKotlinKt                : Started StarterServerKotlinKt in 8.19 seconds (JVM running for 8.872)
+2021-09-17 17:39:17.604  INFO 9784 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-17 17:39:17.608  INFO 9784 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-17 17:39:17.615  INFO 9784 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-17 17:40:06.391  INFO 9732 --- [main] k.b.StarterServerKotlinKt                : Starting StarterServerKotlinKt using Java 11.0.12 on LAPTOP-VH99M8PP with PID 9732 (C:\Users\odili\projetos\kotlin-springboot-kubernetes\target\classes started by odili in C:\Users\odili\projetos\kotlin-springboot-kubernetes)
+2021-09-17 17:40:06.394  INFO 9732 --- [main] k.b.StarterServerKotlinKt                : No active profile set, falling back to default profiles: default
+2021-09-17 17:40:08.339  INFO 9732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-17 17:40:08.561  INFO 9732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 212 ms. Found 2 JPA repository interfaces.
+2021-09-17 17:40:09.003  INFO 9732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4fbb1144' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-17 17:40:09.007  INFO 9732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-17 17:40:09.617  INFO 9732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-17 17:40:09.630  INFO 9732 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-17 17:40:09.630  INFO 9732 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-17 17:40:09.822  INFO 9732 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-17 17:40:09.822  INFO 9732 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3339 ms
+2021-09-17 17:40:10.055  WARN 9732 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-17 17:40:10.147  INFO 9732 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.7.3 by Redgate
+2021-09-17 17:40:10.160  INFO 9732 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-17 17:40:10.390  INFO 9732 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-17 17:40:10.426  INFO 9732 --- [main] o.f.c.i.database.base.DatabaseType       : Database: jdbc:h2:mem:testdb (H2 1.4)
+2021-09-17 17:40:10.512  INFO 9732 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.031s)
+2021-09-17 17:40:10.529  INFO 9732 --- [main] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2021-09-17 17:40:10.565  INFO 9732 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 17:40:10.568  INFO 9732 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 17:40:10.597  INFO 9732 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema "PUBLIC": << Empty Schema >>
+2021-09-17 17:40:10.605  INFO 9732 --- [main] o.f.core.internal.command.DbMigrate      : Migrating schema "PUBLIC" to version "001 - initial"
+2021-09-17 17:40:10.613  INFO 9732 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 17:40:10.614  INFO 9732 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 17:40:10.619  INFO 9732 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 17:40:10.620  INFO 9732 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 1 rows affected
+2021-09-17 17:40:10.621  INFO 9732 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 1 rows affected
+2021-09-17 17:40:10.648  INFO 9732 --- [main] o.f.core.internal.command.DbMigrate      : Successfully applied 1 migration to schema "PUBLIC", now at version v001 (execution time 00:00.058s)
+2021-09-17 17:40:10.769  INFO 9732 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-17 17:40:10.859  INFO 9732 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-17 17:40:11.011  INFO 9732 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-17 17:40:11.158  INFO 9732 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-17 17:40:11.585  INFO 9732 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-17 17:40:11.597  INFO 9732 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-17 17:40:13.173  INFO 9732 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2021-09-17 17:40:13.275  INFO 9732 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-17 17:40:13.411  INFO 9732 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@fbc1de9, org.springframework.security.web.context.SecurityContextPersistenceFilter@5de15ce1, org.springframework.security.web.header.HeaderWriterFilter@3f4b59fd, org.springframework.security.web.csrf.CsrfFilter@38911759, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@46baac0d, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@82382d1, org.springframework.security.web.authentication.logout.LogoutFilter@6aefb242, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2080ee70, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11034fdb, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@77e261e3, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@642b71d6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@295e9aef, org.springframework.security.web.session.SessionManagementFilter@435a13ac, org.springframework.security.web.access.ExceptionTranslationFilter@2048255a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6f8b1902]
+2021-09-17 17:40:13.764  INFO 9732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-17 17:40:13.765  INFO 9732 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-09-17 17:40:13.789  INFO 9732 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-09-17 17:40:13.843  INFO 9732 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-09-17 17:40:13.870  INFO 9732 --- [main] k.b.StarterServerKotlinKt                : Started StarterServerKotlinKt in 8.096 seconds (JVM running for 8.75)
+2021-09-17 17:56:04.858  INFO 9732 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-17 17:56:04.864  INFO 9732 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-17 17:56:04.872  INFO 9732 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-17 18:08:07.251  INFO 22052 --- [main] k.b.StarterServerKotlinKt                : Starting StarterServerKotlinKt using Java 15.0.2 on LAPTOP-VH99M8PP with PID 22052 (C:\Users\odili\projetos\kotlin-springboot-kubernetes\target\classes started by odili in C:\Users\odili\projetos\kotlin-springboot-kubernetes)
+2021-09-17 18:08:07.253  INFO 22052 --- [main] k.b.StarterServerKotlinKt                : No active profile set, falling back to default profiles: default
+2021-09-17 18:08:09.350  INFO 22052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-17 18:08:09.549  INFO 22052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 188 ms. Found 2 JPA repository interfaces.
+2021-09-17 18:08:09.982  INFO 22052 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@759a678a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-17 18:08:09.990  INFO 22052 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-17 18:08:10.486  INFO 22052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-17 18:08:10.499  INFO 22052 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-17 18:08:10.500  INFO 22052 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-17 18:08:10.719  INFO 22052 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-17 18:08:10.720  INFO 22052 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3381 ms
+2021-09-17 18:08:10.973  WARN 22052 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-17 18:08:11.070  INFO 22052 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.7.3 by Redgate
+2021-09-17 18:08:11.079  INFO 22052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-17 18:08:11.265  INFO 22052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-17 18:08:11.302  INFO 22052 --- [main] o.f.c.i.database.base.DatabaseType       : Database: jdbc:h2:mem:testdb (H2 1.4)
+2021-09-17 18:08:11.375  INFO 22052 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.023s)
+2021-09-17 18:08:11.401  INFO 22052 --- [main] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2021-09-17 18:08:11.428  INFO 22052 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 18:08:11.431  INFO 22052 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 18:08:11.450  INFO 22052 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema "PUBLIC": << Empty Schema >>
+2021-09-17 18:08:11.458  INFO 22052 --- [main] o.f.core.internal.command.DbMigrate      : Migrating schema "PUBLIC" to version "001 - initial"
+2021-09-17 18:08:11.465  INFO 22052 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 18:08:11.466  INFO 22052 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 18:08:11.471  INFO 22052 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 18:08:11.472  INFO 22052 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 1 rows affected
+2021-09-17 18:08:11.473  INFO 22052 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 1 rows affected
+2021-09-17 18:08:11.499  INFO 22052 --- [main] o.f.core.internal.command.DbMigrate      : Successfully applied 1 migration to schema "PUBLIC", now at version v001 (execution time 00:00.056s)
+2021-09-17 18:08:11.640  INFO 22052 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-17 18:08:11.708  INFO 22052 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-17 18:08:11.865  INFO 22052 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-17 18:08:11.991  INFO 22052 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-17 18:08:12.421  INFO 22052 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-17 18:08:12.431  INFO 22052 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-17 18:08:13.836  INFO 22052 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2021-09-17 18:08:13.929  INFO 22052 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-17 18:08:14.067  INFO 22052 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1e0bae92, org.springframework.security.web.context.SecurityContextPersistenceFilter@2cee1bcf, org.springframework.security.web.header.HeaderWriterFilter@4fb1bffd, org.springframework.security.web.csrf.CsrfFilter@79864d6, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@ce8b59e, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@705dc1a6, org.springframework.security.web.authentication.logout.LogoutFilter@346d8002, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@50c9b080, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@298f7b0a, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@598ff2b3, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@1002f859, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@123fd460, org.springframework.security.web.session.SessionManagementFilter@7b842e79, org.springframework.security.web.access.ExceptionTranslationFilter@40af3dd8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7410c197]
+2021-09-17 18:08:14.418  INFO 22052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-17 18:08:14.419  INFO 22052 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-09-17 18:08:14.443  INFO 22052 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-09-17 18:08:14.507  INFO 22052 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-09-17 18:08:14.539  INFO 22052 --- [main] k.b.StarterServerKotlinKt                : Started StarterServerKotlinKt in 7.815 seconds (JVM running for 8.53)
+2021-09-17 18:10:49.153  INFO 22052 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-17 18:10:49.155  INFO 22052 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-17 18:10:49.158  INFO 22052 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-17 18:11:41.892  INFO 792 --- [main] k.b.StarterServerKotlinKt                : Starting StarterServerKotlinKt using Java 15.0.2 on LAPTOP-VH99M8PP with PID 792 (C:\Users\odili\projetos\kotlin-springboot-kubernetes\target\classes started by odili in C:\Users\odili\projetos\kotlin-springboot-kubernetes)
+2021-09-17 18:11:41.894  INFO 792 --- [main] k.b.StarterServerKotlinKt                : No active profile set, falling back to default profiles: default
+2021-09-17 18:11:43.933  INFO 792 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-17 18:11:44.121  INFO 792 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 177 ms. Found 2 JPA repository interfaces.
+2021-09-17 18:11:44.606  INFO 792 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@14b8a751' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-17 18:11:44.613  INFO 792 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-17 18:11:45.112  INFO 792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-17 18:11:45.126  INFO 792 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-17 18:11:45.127  INFO 792 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-17 18:11:45.329  INFO 792 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-17 18:11:45.329  INFO 792 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3372 ms
+2021-09-17 18:11:45.618  WARN 792 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-17 18:11:45.741  INFO 792 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.7.3 by Redgate
+2021-09-17 18:11:45.751  INFO 792 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-17 18:11:45.978  INFO 792 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-17 18:11:46.013  INFO 792 --- [main] o.f.c.i.database.base.DatabaseType       : Database: jdbc:h2:mem:testdb (H2 1.4)
+2021-09-17 18:11:46.086  INFO 792 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.025s)
+2021-09-17 18:11:46.102  INFO 792 --- [main] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2021-09-17 18:11:46.144  INFO 792 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 18:11:46.148  INFO 792 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 18:11:46.170  INFO 792 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema "PUBLIC": << Empty Schema >>
+2021-09-17 18:11:46.177  INFO 792 --- [main] o.f.core.internal.command.DbMigrate      : Migrating schema "PUBLIC" to version "001 - initial"
+2021-09-17 18:11:46.187  INFO 792 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 18:11:46.188  INFO 792 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 18:11:46.191  INFO 792 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 0 rows affected
+2021-09-17 18:11:46.192  INFO 792 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 1 rows affected
+2021-09-17 18:11:46.193  INFO 792 --- [main] o.f.c.i.s.DefaultSqlScriptExecutor       : 1 rows affected
+2021-09-17 18:11:46.217  INFO 792 --- [main] o.f.core.internal.command.DbMigrate      : Successfully applied 1 migration to schema "PUBLIC", now at version v001 (execution time 00:00.054s)
+2021-09-17 18:11:46.325  INFO 792 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-17 18:11:46.374  INFO 792 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-17 18:11:46.507  INFO 792 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-17 18:11:46.626  INFO 792 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-17 18:11:47.010  INFO 792 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-17 18:11:47.020  INFO 792 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-17 18:11:48.644  INFO 792 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2021-09-17 18:11:48.745  INFO 792 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-17 18:11:48.862  INFO 792 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a577b99, org.springframework.security.web.context.SecurityContextPersistenceFilter@4ce4c097, org.springframework.security.web.header.HeaderWriterFilter@4e0a5606, org.springframework.security.web.csrf.CsrfFilter@7a174e4b, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@48224381, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@49c555c3, org.springframework.security.web.authentication.logout.LogoutFilter@ae4a043, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@79864d6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f4e235e, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@193c3b1c, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@43d84df1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@440309c5, org.springframework.security.web.session.SessionManagementFilter@295e989, org.springframework.security.web.access.ExceptionTranslationFilter@4f6f7a86, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7def08fc]
+2021-09-17 18:11:49.276  INFO 792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-17 18:11:49.277  INFO 792 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-09-17 18:11:49.296  INFO 792 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-09-17 18:11:49.364  INFO 792 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-09-17 18:11:49.396  INFO 792 --- [main] k.b.StarterServerKotlinKt                : Started StarterServerKotlinKt in 8.098 seconds (JVM running for 8.621)
