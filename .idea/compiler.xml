@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="sample-spring-kotlin-microservice" target="15" />
+      <module name="sample-spring-kotlin-microservice" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

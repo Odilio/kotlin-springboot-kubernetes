@@ -7,7 +7,14 @@ management:
 # H2 connection
 spring:
   application:
-    name: spring-boot-kotlin-microservice
+    name: spring-kotlin-microservice
+  cloud:
+    config:
+      import-check:
+        enabled: false
+    kubernetes:
+      discovery:
+        all-namespaces: true
   datasource:
     url: jdbc:h2:mem:testdb
     driverClassName: org.h2.Driver
@@ -16,7 +23,7 @@ spring:
     database-platform: org.hibernate.dialect.H2Dialect
 
 url:
-  products: "http://localhost:8080/"
+  products: "http://spring-kotlin-microservice:8080/"
 
 keycloak:
   realm: example

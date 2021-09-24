@@ -1,8 +1,14 @@
-apiVersion: skaffold/v1
+apiVersion: skaffold/v2beta23
 kind: Config
+metadata:
+  name: kotlin-springboot-kubernetes
 build:
   artifacts:
-  - image: rapaduratech/spring-kotlin-microservice
-    jib: {}
-  tagPolicy:
-    gitCommit: {}
+  - image: odilio/spring-kotlin-microservice
+    jib:
+      project: kotlin.boilerplate_spring_boot:spring-kotlin-microservice
+deploy:
+  kubectl:
+    manifests:
+    - k8s/deployment.yaml
+    - k8s/service.yaml

@@ -1,18 +1,33 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: spring-kotlin-boilerplate
+  name: spring-kotlin-microservice
 spec:
   selector:
     matchLabels:
-      app: spring-kotlin-boilerplate
+      app: spring-kotlin-microservice
   template:
     metadata:
       labels:
-        app: spring-kotlin-boilerplate
+        app: spring-kotlin-microservice
     spec:
+      dnsConfig:
+        options:
+          - name: single-request-reopen
       containers:
-      - name: spring-kotlin-boilerplate
-        image: rapaduratech/spring-kotlin-microservice
+      - name: spring-kotlin-microservice
+        image: odilio/spring-kotlin-microservice
         ports:
         - containerPort: 8080
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: spring-config
+data:
+  dev-config.json:
+    '{
+      "datasource.url": "jdbc:mysql://dev-endpoint/example",
+      "datasource.username": "dev-root",
+      "datasource.password": "dev-pass"
+     }'

@@ -38,7 +38,7 @@ class WebSecurityConfig : KeycloakWebSecurityConfigurerAdapter() {
         super.configure(http)
         http
             .authorizeRequests()
-            .antMatchers("/products/**").permitAll()
+            .antMatchers("/products/**","/print/**","/webclient/**").permitAll()
             .anyRequest().fullyAuthenticated()
     }
 }
